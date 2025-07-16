@@ -1,6 +1,6 @@
 import type { SVGProps } from "react";
 
-export function RaahiLogo(props: SVGProps<SVGSVGElement>) {
+export function ShravyaMilesLogo(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

@@ -35,7 +35,7 @@ const prompt = ai.definePrompt({
   name: 'optimizeRouteWithShravyaAIPrompt',
   input: {schema: OptimizeRouteInputSchema},
   output: {schema: OptimizeRouteOutputSchema},
-  prompt: `You are Shravya AI, an expert in suggesting the best travel routes.
+  prompt: `You are Shravya Miles, an expert in suggesting the best travel routes.
 
   Based on the following information, suggest the best route combinations (Train+Cab, Flight+Bus, etc.) considering seat availability, price, time-to-reach, and cancellation details.
 

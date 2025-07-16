@@ -6,7 +6,7 @@ import { AiOptimizer } from "@/components/ai-optimizer";
 import { BusFinder } from "@/components/bus-finder";
 import { CabFinder } from "@/components/cab-finder";
 import { FlightFinder } from "@/components/flight-finder";
-import { RaahiLogo } from "@/components/raahi-logo";
+import { ShravyaMilesLogo } from "@/components/shravya-miles-logo";
 import { TrainFinder } from "@/components/train-finder";
 import {
   Tabs,
@@ -19,10 +19,10 @@ export default function DashboardPage() {
   return (
     <div className="flex min-h-screen w-full flex-col bg-background text-foreground">
       <header className="sticky top-0 z-30 flex h-16 items-center gap-4 border-b bg-background/95 px-4 backdrop-blur-sm md:px-6">
-        <RaahiLogo />
+        <ShravyaMilesLogo />
         <h1 className="text-xl font-semibold md:text-2xl">
-          <span className="font-bold text-primary">Raahi</span>
-          <span className="font-light"> AI</span>
+          <span className="font-bold text-primary">Shravya</span>
+          <span className="font-light"> Miles</span>
         </h1>
       </header>
       <main className="flex flex-1 flex-col gap-4 p-4 md:gap-8 md:p-8">
@@ -67,7 +67,7 @@ export default function DashboardPage() {
         </Tabs>
       </main>
       <footer className="flex items-center justify-center p-4 text-sm text-muted-foreground">
-        <p>Powered by Raahi AI</p>
+        <p>Powered by Shravya Miles</p>
       </footer>
     </div>
   );
